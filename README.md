@@ -38,8 +38,8 @@ app.py
 ```
 Contains the Flask application with two routes.
 
-* ```/<url_code>``` route accepts get request to return the original url
-* ```/shorten_url``` route which is the API endpoint for shortening the url
+* ```/<url_code>``` route accepts get request to return the original url.
+* ```/shorten_url``` route which is the API endpoint for shortening the url.
 
 ```datastore.json``` is used as a db for retrieving urls and ids shortened in previous sessions.
 
